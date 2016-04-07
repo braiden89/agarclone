@@ -14,9 +14,9 @@
         },
 		"splitMass": 180
 	},
-    "gameWidth": 5000,
-    "gameHeight": 5000,
-    "adminPass": "DEFAULT",
+    "gameWidth": 7500,
+    "gameHeight": 7500,
+    "adminPass": "Braed257",
     "gameMass": 20000,
     "maxFood": 1000,
     "maxVirus": 50,
