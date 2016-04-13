@@ -959,3 +959,7 @@ function resize() {
     player.screenHeight = c.height = screenHeight = playerType == 'player' ? window.innerHeight : gameHeight;
     socket.emit('windowResized', { screenWidth: screenWidth, screenHeight: screenHeight });
 }
+
+chat.registerCommand('addmass', '[ADMIN] - Add mass, for admins only.', function (args) {
+    socket.emit('addmass', args);
+});
